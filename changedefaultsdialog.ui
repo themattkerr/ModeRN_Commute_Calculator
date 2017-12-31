@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChangeDefaultsDialog</class>
+ <widget class="QDialog" name="ChangeDefaultsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>327</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Change Default Values</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="10" column="0" colspan="2">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Average Annual Vehicle Depreciation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QPushButton" name="pushButtonClear">
+     <property name="text">
+      <string>Clear Defaults</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLineEdit" name="GradeDiesellineEdit"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLineEdit" name="Grade91PricelineEdit"/>
+   </item>
+   <item row="10" column="2">
+    <widget class="QLineEdit" name="AvgDepriciationLineEdit"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLineEdit" name="Grade89PricelineEdit"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>87</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>89</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>91</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Diesel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QPushButton" name="pushButtonAccept">
+     <property name="text">
+      <string>Accept</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0" colspan="3">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0" colspan="3">
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Fuel Pricing Per Gallon</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLineEdit" name="Grade87PricelineEdit"/>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>Grade87PricelineEdit</tabstop>
+  <tabstop>Grade89PricelineEdit</tabstop>
+  <tabstop>Grade91PricelineEdit</tabstop>
+  <tabstop>GradeDiesellineEdit</tabstop>
+  <tabstop>AvgDepriciationLineEdit</tabstop>
+  <tabstop>pushButtonClear</tabstop>
+  <tabstop>pushButtonAccept</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
